@@ -34,5 +34,5 @@ variable "instance_count" {
 
 variable "subnet_ids" {
   type    = list(string)
-  default = [","]
+  default = ["subnet-0637ed09909f08182", "subnet-0b4afd6947a72162b", "subnet-0652f3638b8ab3b4b"]
 }
