@@ -4,7 +4,7 @@ provider "aws" {
 
 variable "instance_name" {
   type = string
-  default = "Jenkins-agent"
+  default = "Jenkins"
 }
 
 variable "ami_id" {
